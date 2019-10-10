@@ -3,14 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Langue latines -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Compatibilitée IE/edge-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Rescal en fonction de la taille d'ecran-->
     <link rel="stylesheet" href="connexion.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-    
-    <title>Login</title>
+    <title>Mdpo</title>
 </head>
 
 <body>
@@ -20,37 +22,33 @@
     
     <h1>Twinkle</h1>
 
- 
-
-
- 
-    <div class="gradient">
+ <div class="g4">
+    <form>
     
-        <form method="post" action="traitement.php">
-         
-         <p class="P1">
-             <label for="pseudo">Votre pseudo :</label>
-             <input type="text" name="pseudo" id="pseudo" />
-             
-             <br />
-             <label for="pass">Votre mot de passe :</label>
-             <input type="password" name="pass" id="pass" />
-             <a href="motdepasse.html" class="a1">Mot de passe oublié???</a>
-         </p>
-     
-        <button>    
-            <a href="bienvenue.html">Valider</a>
-        </button>
-   
-
-        </form>
-
+    <div class="g5">
+    <label for="mdp">Ancien mot de passe :</label><input name="pseudo" type="text" required><br>
     </div>
     
-       <button class="buz"> 
-        <a href="inscription.html">Pas inscrit ???</a>
-       </button>
+    <div class="g5">
+    <label for="mdp">Nouveau mot de passe :</label><input name="mdp" type="password" required>
+    </div>
     
+    <div class="g5">
+    <label for="mdp">Confirmer mot de passe :</label><input name="mdp" type="password" required>
+    </div>
+
+    <a href="Bienvenue.html" class="A2"><input type="button" value="submit"></a>
+    
+    </form>
+    
+  </div> 
+    
+ 
+
+
+
+ 
+ 
 </body>
 
 </html>
